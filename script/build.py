@@ -70,7 +70,7 @@ def main():
       'skia_use_system_freetype2=false',
       # 'skia_use_angle=true',
       'skia_use_gl=true',
-      'skia_use_direct3d=true',
+      # 'skia_use_direct3d=true',
       'extra_cflags=["-DSK_FONT_HOST_USE_SYSTEM_SETTINGS", "/MD"]'
     ]
   elif 'android' == system:
