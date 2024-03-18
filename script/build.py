@@ -69,9 +69,11 @@ def main():
     args += [
       'skia_use_system_freetype2=false',
       # 'skia_use_angle=true',
+      'skia_gl_standard="gl"',
       'skia_use_gl=true',
-      # 'skia_use_direct3d=true',
-      'extra_cflags=["-DSK_FONT_HOST_USE_SYSTEM_SETTINGS", "/MD"]'
+      'skia_use_direct3d=false',
+      'extra_cflags=["-DSK_FONT_HOST_USE_SYSTEM_SETTINGS", "/MD"]',
+      "--shared_library=true"
     ]
   elif 'android' == system:
     args += [
