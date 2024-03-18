@@ -72,7 +72,6 @@ def main():
       'skia_gl_standard="gl"',
       'skia_use_gl=true',
       'skia_use_direct3d=false',
-      'skia_enable_graphite=true',
       'extra_cflags=["-DSK_FONT_HOST_USE_SYSTEM_SETTINGS", "/MD"]'
       # "shared_library=true"
     ]
